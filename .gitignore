@@ -1,0 +1,21 @@
+# Rust build artifacts
+/target/
+
+# Backup and editor files
+**/*.rs.bk
+**/*~
+*.swp
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Optional: ignore Cargo.lock for libraries; keep for apps if you prefer reproducible builds
+Cargo.lock
+/target
